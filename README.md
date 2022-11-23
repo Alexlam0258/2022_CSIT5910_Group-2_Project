@@ -7,3 +7,10 @@ The transformer will be used to embed the text description of the image into a s
 All in all, the loss function is defined as L2-distance of same pair / average of L2-distance of different pairs.
 
 After training the model of image-text classifier, the GAN(?) will be employed to generate large amount of images. Then, the trained classifier will be employed to link up with the closest pair of generated image and inputted text.
+
+***Phase 1: Image-Text Classifier***
+![image](https://user-images.githubusercontent.com/99800043/203503375-c3e93afe-0233-44dd-ba43-b603a7b6b235.png)
+
+***Phase 2: Classifer Link with Generated Image Using DCGAN***
+![image](https://user-images.githubusercontent.com/99800043/203504271-6bf16eb0-fd53-4b3d-8bfa-54d67e3ffab7.png)
+
